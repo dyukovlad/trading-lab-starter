@@ -1,0 +1,6 @@
+[
+{"time": 1690000000000, "open": 100, "high": 102, "low": 99, "close": 101, "volume": 1200},
+{"time": 1690003600000, "open": 101, "high": 103, "low": 100, "close": 102, "volume": 1300},
+{"time": 1690007200000, "open": 102, "high": 105, "low": 101, "close": 104, "volume": 1400},
+{"time": 1690010800000, "open": 104, "high": 106, "low": 103, "close": 105, "volume": 1500}
+]

@@ -1,0 +1,32 @@
+html,body,#app{
+height:100%;
+margin:0;
+font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+
+#app{
+display:flex;
+flex-direction:column;
+gap:12px;
+padding:12px;
+}
+
+
+.header{
+font-size:18px;
+font-weight:600;
+}
+
+
+.container{
+display:flex;
+gap:12px;
+}
+
+
+.canvasWrap{
+border:1px solid #e2e8f0;
+border-radius:8px;
+padding:8px;
+}
