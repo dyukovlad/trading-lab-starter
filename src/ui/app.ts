@@ -3,15 +3,15 @@ import { createChart } from './chart';
 
 const mountApp = (root: HTMLElement) => {
   root.innerHTML = `
-<div class="header">Trading Lab — Starter</div>
-    <div class="container">
-    <div class="canvasWrap"><canvas id="chart" width="900" height="400"></canvas></div>
-    
     <div>
-        <h4>Controls</h4>
-        <button id="load">Load sample data</button>
+        <div class='header'>
+            <div class="header_name">Trading Lab — Starter</div>
+            <button id="load">Load sample data</button>
+        </div>
+        <div class="container">
+            <div class="canvasWrap"><canvas id="chart" width="1200" height="600"></canvas></div>
+        </div>
     </div>
-</div>
 `;
 
   const canvas = document.getElementById('chart') as HTMLCanvasElement;
